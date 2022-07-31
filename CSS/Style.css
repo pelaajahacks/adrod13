@@ -1,0 +1,134 @@
+
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    transition: 0.7s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: auto;
+    transition: 0.2s;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(29, 29, 29, 0.5);
+    backdrop-filter: saturate(120%) blur(20px);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(18, 18, 18, 0.5);
+    border-bottom-left-radius: 5px;
+    transition: 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(37, 37, 37);
+    transition: 0.2s;
+}
+
+/* Body */
+
+body {
+    background-color: #f0f0f0;
+    text-align: justify !important;
+    display: block;
+    transition: 0.7s;
+}
+
+::selection {
+    background: #171717;
+}
+
+nav {
+    width: 96.97%;
+    height: 100%;
+    padding: 0px 24px;
+    background-color: rgb(0, 99, 228);
+    position: relative !important;
+    top: -65px;
+    transition: top 0.7s;
+    max-height: 64px;
+    backdrop-filter: saturate(120%) blur(20px);
+}
+
+.GridNav {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+a {
+    text-decoration: dotted;
+    color: whitesmoke;
+    font-family: 'Gotham';
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.Title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-left: 12px;
+    font-weight: bolder;
+    padding-top: 7px;
+    padding-bottom: 10px !important;
+    margin-bottom: 16px !important;
+    pointer-events: none;
+}
+
+.TitleHdr {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+/* ayoooo what are you doing watching my code 😾 */
+
+.adinst {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+    padding-left: 15px;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.installbtn {
+    background-color: #d1d1d1;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 3px;
+    padding-left: 15px !important;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.installbtn:hover {
+    background-color: #c1c1c1;
+    cursor: pointer;
+}
+
+#credits, #mycredits {
+    color: #a3a3a3;
+    display: block;
+    font-family: sans-serif !important;
+    font-family: sans-serif !important;
+    margin-left: 15px;
+    font-size: 10px;
+
+}
