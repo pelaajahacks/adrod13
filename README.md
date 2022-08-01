@@ -1,1 +1,1 @@
-### Bro has a web installer 💀💀💀
+### Bro haves a web installer 💀💀💀
