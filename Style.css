@@ -1,5 +1,6 @@
-
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0px;
     padding: 0px;
     transition: 0.7s;
@@ -8,6 +9,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 
 /* Scrollbar */
 
@@ -31,6 +33,7 @@ html {
     background: rgb(37, 37, 37);
     transition: 0.2s;
 }
+
 
 /* Body */
 
@@ -73,10 +76,9 @@ a {
 .Title {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    margin-left: 12px;
+    font-size: 24px;
+    margin-left: 5px;
     font-weight: bolder;
-    padding-top: 7px;
     padding-bottom: 10px !important;
     margin-bottom: 16px !important;
     pointer-events: none;
@@ -88,11 +90,15 @@ a {
     flex-wrap: wrap;
     box-sizing: border-box;
     padding-top: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
+    padding-right: 8px;
+    padding-bottom: 8px;
 }
 
+
 /* ayoooo what are you doing watching my code 😾 */
+
+
+/* Lmao ok excel */
 
 .adinst {
     font-family: 'Roboto', sans-serif;
@@ -123,12 +129,12 @@ button {
     cursor: pointer;
 }
 
-#credits, #mycredits {
+#credits,
+#mycredits {
     color: #a3a3a3;
     display: block;
     font-family: sans-serif !important;
     font-family: sans-serif !important;
     margin-left: 15px;
     font-size: 10px;
-
 }

@@ -1,0 +1,38 @@
+{
+    "name": "adrod13installer",
+    "short_name": "adrod13",
+    "theme_color": "#34DD85",
+    "icons": [{
+            "src": "pwa/icons/any512.png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        },
+        {
+            "src": "pwa/icons/any512.png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "pwa/icons/any512.png",
+            "sizes": "512x512",
+            "purpose": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "34DD85",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "shortcuts": [{
+            "name": "installer",
+            "short_name": "install",
+            "url": "/"
+        },
+        {
+            "name": "phon bricd",
+            "short_name": "bricd",
+            "description": "briced phone bozo",
+            "url": "pphonbrciked"
+        }
+    ]
+}
