@@ -45,5 +45,5 @@ installbtn.onclick = function(params) {
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     let title = document.getElementById('title');
-    title.innerHTML = "No cap no virus 1000% working 💀💀💀";
+    title.innerHTML = "adrod 13 installer 💀💀💀";
 }
