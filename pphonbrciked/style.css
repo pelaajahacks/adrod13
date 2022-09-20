@@ -68,3 +68,7 @@ span {
     margin-bottom: auto;
     margin-top: 75vh;
 }
+
+.bricktext {
+    animation: fadeIn 1s;
+}
