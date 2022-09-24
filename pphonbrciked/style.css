@@ -78,7 +78,7 @@ span {
 
 @keyframes fadeIn {
     0% { opacity: 0; }
-    5% { opacity: 1; }
+    5% { opacityi: 1; }
     94% { opacity: 1; }
     100% { opacity: 0; }
   }
@@ -87,6 +87,5 @@ span {
     0% { opacity: 0; }
     5% { opacity: 1; }
     94% { opacity: 1; }
-    99% { opacity: 0; }
-    100% {}
+    100% { opacity: 0; }
 }
