@@ -77,15 +77,15 @@ span {
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    5% { opacityi: 1; }
+    5% { opacity: 0; }
+    10% { opacityi: 1; }
     94% { opacity: 1; }
     100% { opacity: 0; }
   }
 
 @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    5% { opacity: 1; }
+    5% { opacity: 0; }
+    10% { opacity: 1; }
     94% { opacity: 1; }
     100% { opacity: 0; }
 }
